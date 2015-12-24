@@ -167,7 +167,7 @@ class Boton extends JButton {
 		super(texto, icono);
 		setContentAreaFilled(fondo);
 		setBorderPainted(fondo);
-		setForeground(Color.WHITE);
+		setForeground(Color.BLACK);
 		setFont(new Font("Arial", Font.BOLD, 12));
 		setPreferredSize(new Dimension(ancho, altura));
 		setVerticalTextPosition(SwingConstants.BOTTOM);
